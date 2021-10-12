@@ -1,0 +1,24 @@
+Skapa variabel slumpTal
+Generera ett slumptal mellan 1 och 100 och lägg i variablen slumpTal
+
+Skapa variablen gissning
+Skapa variablen antalFörsök
+Sätt antalFörsök till 1
+
+Repetera för alltid:
+{
+    Be användaren om ett tal och lägg i variablen gissning
+
+    Om gissning är lika med slumpTal:
+        Skriv ut "Rätt gissning"
+        Skriv ut variablen antalFörsök
+
+        Stoppa programmet
+    Annars:
+        Om gissning är större än slumpTal:
+            Skriv ut "Gissningen är för hög"
+        Annars:
+            Skriv ut "Gissningen är för låg"
+            
+        Öka antalFörsök med 1
+}
